@@ -1,5 +1,3 @@
-// Define an array
-
 function MaxNumber() {
   const numbers = [1, 20, 10, 7, 2, 9];
   let maxNumber = numbers[0];
