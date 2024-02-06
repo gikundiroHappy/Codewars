@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" id="text" />
+      <button id="sub">Submit</button>
+    </div>
+    <script>
+      let button = document.getElementById("sub");
+
+      button.addEventListener("click", handleClick);
+
+      function handleClick() {
+        let text = document.getElementById("text").value;
+        if (text >= "7") {
+          alert("done");
+        }
+        console.log("No");
+      }
+    </script>
+  </body>
+</html>
