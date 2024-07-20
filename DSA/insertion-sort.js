@@ -1,5 +1,5 @@
-function insertionSort(arrary) {
-  const arr = arrary.slice();
+function insertionSort(array) {
+  const arr = array.slice();
 
   for (let i = 1; i < arr.length; i++) {
     for (let j = i; j > 0; j--) {
