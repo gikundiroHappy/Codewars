@@ -34,5 +34,6 @@ const mergeSort = (arr) => {
 
   return merge(mergeSort(leftArr), mergeSort(rightArr));
 };
+
 const arr = [23, 45, 6, 0, 8, 2, 1, 50, 34];
 console.log(mergeSort(arr));
